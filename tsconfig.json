@@ -16,6 +16,14 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "pv-components-lib/*": [
+        "projects/pv-components-lib/*/public-api"
+      ],
+      "pv-journey-demo": [
+        "dist/pv-journey-demo"
+      ]
+    },
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
