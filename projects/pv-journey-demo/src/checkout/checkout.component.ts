@@ -4,7 +4,7 @@ import { Component } from "@angular/core";
     selector: 'gc-journey-checkout',
     template: `
         <div class="journey-checkout">
-            <p-button label="Submit"></p-button>
+            <pv-button buttonType="button" buttonText="Hello from checkout!"></pv-button>
         </div>
     `
 })
