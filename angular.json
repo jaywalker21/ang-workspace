@@ -36,34 +36,34 @@
         }
       }
     },
-    "pv-components-demo": {
+    "pv-app-demo": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
         }
       },
-      "root": "projects/pv-components-demo",
-      "sourceRoot": "projects/pv-components-demo/src",
+      "root": "projects/pv-app-demo",
+      "sourceRoot": "projects/pv-app-demo/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pv-components-demo",
-            "index": "projects/pv-components-demo/src/index.html",
-            "main": "projects/pv-components-demo/src/main.ts",
+            "outputPath": "dist/pv-app-demo",
+            "index": "projects/pv-app-demo/src/index.html",
+            "main": "projects/pv-app-demo/src/main.ts",
             "polyfills": [
               "zone.js"
             ],
-            "tsConfig": "projects/pv-components-demo/tsconfig.app.json",
+            "tsConfig": "projects/pv-app-demo/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "projects/pv-components-demo/src/favicon.ico",
-              "projects/pv-components-demo/src/assets"
+              "projects/pv-app-demo/src/favicon.ico",
+              "projects/pv-app-demo/src/assets"
             ],
             "styles": [
-              "projects/pv-components-demo/src/styles.scss"
+              "projects/pv-app-demo/src/styles.scss"
             ],
             "scripts": []
           },
@@ -98,10 +98,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "pv-components-demo:build:production"
+              "browserTarget": "pv-app-demo:build:production"
             },
             "development": {
-              "browserTarget": "pv-components-demo:build:development"
+              "browserTarget": "pv-app-demo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -109,7 +109,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pv-components-demo:build"
+            "browserTarget": "pv-app-demo:build"
           }
         },
         "test": {
@@ -119,14 +119,14 @@
               "zone.js",
               "zone.js/testing"
             ],
-            "tsConfig": "projects/pv-components-demo/tsconfig.spec.json",
+            "tsConfig": "projects/pv-app-demo/tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "projects/pv-components-demo/src/favicon.ico",
-              "projects/pv-components-demo/src/assets"
+              "projects/pv-app-demo/src/favicon.ico",
+              "projects/pv-app-demo/src/assets"
             ],
             "styles": [
-              "projects/pv-components-demo/src/styles.scss"
+              "projects/pv-app-demo/src/styles.scss"
             ],
             "scripts": []
           }

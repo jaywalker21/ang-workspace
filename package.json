@@ -9,8 +9,8 @@
     "test": "ng test",
     "build:lib": "ng build pv-components-lib --configuration production",
     "build:journey": "ng build pv-journey-demo",
-    "build:app": "ng build pv-components-demo --configuration production --stats-json --source-map",
-    "analyze-bundle": "source-map-explorer dist/pv-components-demo/main.fdbc8f8662c07de1.js --no-border-checks"
+    "build:app": "ng build pv-app-demo --configuration production --stats-json --source-map",
+    "analyze-bundle": "source-map-explorer dist/pv-app-demo/main.fdbc8f8662c07de1.js --no-border-checks"
   },
   "private": true,
   "dependencies": {
@@ -23,7 +23,6 @@
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
     "@sentinels/pv-gc-journey": "1.0.2",
-    "@sentinels/pv-components-lib": "^1.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
