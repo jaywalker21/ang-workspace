@@ -4,8 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { TypographyModule } from 'pv-components-lib/typography';
-
 
 @NgModule({
   declarations: [
@@ -13,8 +11,7 @@ import { TypographyModule } from 'pv-components-lib/typography';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    TypographyModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

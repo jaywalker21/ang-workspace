@@ -10,7 +10,8 @@
     "build:lib": "ng build pv-components-lib --configuration production",
     "build:journey": "ng build pv-journey-demo",
     "build:app": "ng build pv-app-demo --configuration production --stats-json --source-map",
-    "analyze-bundle": "source-map-explorer dist/pv-app-demo/main.fdbc8f8662c07de1.js --no-border-checks"
+    "analyze-bundle": "source-map-explorer dist/pv-app-demo/729.459b9195bc579293.js --no-border-checks",
+    "analyze": "webpack-bundle-analyzer dist/pv-app-demo/stats.json"
   },
   "private": true,
   "dependencies": {
