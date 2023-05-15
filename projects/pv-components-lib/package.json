@@ -1,6 +1,6 @@
 {
   "name": "@sentinels/pv-components-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "peerDependencies": {
     "@angular/common": "^15.2.0",

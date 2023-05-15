@@ -18,7 +18,7 @@
     "importHelpers": true,
     "paths": {
       "pv-components-lib/*": [
-        "dist/*/public-api"
+        "projects/pv-components-lib/*/public-api"
       ],
       "pv-journey-demo": [
         "dist/pv-journey-demo"
