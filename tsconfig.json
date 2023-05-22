@@ -22,6 +22,9 @@
       ],
       "pv-journey-demo": [
         "dist/pv-journey-demo"
+      ],
+      "pv-shared-services": [
+        "dist/pv-shared-services"
       ]
     },
     "target": "ES2022",

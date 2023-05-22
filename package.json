@@ -9,6 +9,7 @@
     "test": "ng test",
     "build:lib": "ng build pv-components-lib --configuration production",
     "build:journey": "ng build pv-journey-demo",
+    "build:shared-services": "ng build pv-shared-services --configuration production",
     "build:app": "ng build pv-app-demo --configuration production --stats-json --source-map",
     "analyze-bundle": "source-map-explorer dist/pv-app-demo/729.459b9195bc579293.js --no-border-checks",
     "analyze": "webpack-bundle-analyzer dist/pv-app-demo/stats.json"
@@ -24,6 +25,8 @@
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
     "@sentinels/pv-gc-journey": "1.0.4",
+    "@sentinels/pv-shared-services": "0.0.1",
+    "primeng": "^15.4.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
@@ -32,6 +35,7 @@
     "@angular-devkit/build-angular": "^15.2.8",
     "@angular/cli": "~15.2.4",
     "@angular/compiler-cli": "^15.2.0",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
