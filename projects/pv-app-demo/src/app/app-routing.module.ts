@@ -2,14 +2,15 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {
-    path: "giftcards",
-    loadChildren: () => import('@sentinels/pv-gc-journey').then(m => m.PvJourneyDemoModule)
-  }
+  // {
+  //   path: 'giftcards',
+  //   loadChildren: () =>
+  //     import('pv-journey-demo').then((m) => m.PvJourneyDemoModule),
+  // },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

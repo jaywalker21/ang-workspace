@@ -1,13 +1,15 @@
 {
   "name": "@sentinels/pv-components-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "peerDependencies": {
     "@angular/common": "^15.2.0",
-    "@angular/core": "^15.2.0"
+    "@angular/core": "^15.2.0",
+    "@sentinels/pv-shared-services": "1.0.2"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "primeng": "^15.4.1"
   },
   "sideEffects": false
 }

@@ -17,23 +17,15 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
-      "pv-components-lib/*": [
-        "projects/pv-components-lib/*/public-api"
-      ],
-      "pv-journey-demo": [
-        "dist/pv-journey-demo"
-      ],
-      "pv-shared-services": [
-        "dist/pv-shared-services"
-      ]
+      "pv-components-lib/*": ["projects/pv-components-lib/*/public-api"],
+      "pv-journey-demo": ["dist/pv-journey-demo"],
+      "pv-shared-services": ["dist/pv-shared-services"],
+      "pv-shared": ["dist/pv-shared-services"]
     },
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2022", "dom"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
