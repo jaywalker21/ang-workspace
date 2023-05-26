@@ -1,11 +1,12 @@
 {
   "name": "@sentinels/pv-components-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0",
-    "@sentinels/pv-shared-services": "1.0.2"
+    "@pv-frontend/pv-shared-directives": "1.0.2-beta",
+    "@pv-frontend/pv-shared-services": "1.0.0-test"
   },
   "dependencies": {
     "tslib": "^2.3.0",

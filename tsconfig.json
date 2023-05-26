@@ -19,8 +19,8 @@
     "paths": {
       "pv-components-lib/*": ["projects/pv-components-lib/*/public-api"],
       "pv-journey-demo": ["dist/pv-journey-demo"],
-      "pv-shared-services": ["dist/pv-shared-services"],
-      "pv-shared": ["dist/pv-shared-services"]
+      "pv-shared-directives/*": ["projects/pv-shared-directives/*/public-api"],
+      "pv-shared-services/*": ["dist/pv-shared-services/*/public-api"]
     },
     "target": "ES2022",
     "module": "ES2022",

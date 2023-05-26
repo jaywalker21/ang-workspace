@@ -11,7 +11,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/pv-components-lib/ng-package.json",
+            "project": "projects/pv-components-lib/ng-package.json"
           },
           "configurations": {
             "production": {
@@ -28,10 +28,7 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "tsConfig": "projects/pv-components-lib/tsconfig.spec.json",
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ]
+            "polyfills": ["zone.js", "zone.js/testing"]
           }
         }
       }
@@ -53,18 +50,14 @@
             "outputPath": "dist/pv-app-demo",
             "index": "projects/pv-app-demo/src/index.html",
             "main": "projects/pv-app-demo/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/pv-app-demo/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/pv-app-demo/src/favicon.ico",
               "projects/pv-app-demo/src/assets"
             ],
-            "styles": [
-              "projects/pv-app-demo/src/styles.scss"
-            ],
+            "styles": ["projects/pv-app-demo/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -115,19 +108,14 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/pv-app-demo/tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/pv-app-demo/src/favicon.ico",
               "projects/pv-app-demo/src/assets"
             ],
-            "styles": [
-              "projects/pv-app-demo/src/styles.scss"
-            ],
+            "styles": ["projects/pv-app-demo/src/styles.scss"],
             "scripts": []
           }
         }
@@ -158,10 +146,7 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "tsConfig": "projects/pv-journey-demo/tsconfig.spec.json",
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ]
+            "polyfills": ["zone.js", "zone.js/testing"]
           }
         }
       }
@@ -169,8 +154,7 @@
     "pv-shared-services": {
       "projectType": "library",
       "root": "projects/pv-shared-services",
-      "sourceRoot": "projects/pv-shared-services/src",
-      "prefix": "lib",
+      "sourceRoot": "projects/pv-shared-services",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
@@ -191,6 +175,36 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "tsConfig": "projects/pv-shared-services/tsconfig.spec.json",
+            "polyfills": ["zone.js", "zone.js/testing"]
+          }
+        }
+      }
+    },
+    "pv-shared-directives": {
+      "projectType": "library",
+      "root": "projects/pv-shared-directives",
+      "sourceRoot": "projects/pv-shared-directives/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/pv-shared-directives/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/pv-shared-directives/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/pv-shared-directives/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/pv-shared-directives/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"

@@ -1,4 +1,4 @@
-import { JourneyMetadataService } from '@sentinels/pv-shared-services';
+import { JourneyMetadataService } from '@pv-frontend/pv-shared-services/journey-metadata-service';
 import { allJourneyDetails } from './journey-info';
 
 export class JourneyMetaDataServiceImpl extends JourneyMetadataService {

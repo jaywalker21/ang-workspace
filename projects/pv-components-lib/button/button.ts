@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input, NgModule } from '@angular/core';
 
 import { ButtonModule as PrimeNgButtonModule } from 'primeng/button';
-import { TelemetryModule } from '@sentinels/pv-shared-services';
+import { ClickTrackingModule } from '@pv-frontend/pv-shared-directives/tracking';
 
 type ButtonType = 'button' | 'submit' | 'reset';
 
@@ -37,7 +37,7 @@ export class Button {
 }
 
 @NgModule({
-  imports: [CommonModule, PrimeNgButtonModule, TelemetryModule],
+  imports: [CommonModule, PrimeNgButtonModule, ClickTrackingModule],
   exports: [Button],
   declarations: [Button],
 })

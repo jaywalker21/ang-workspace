@@ -1,6 +1,6 @@
 {
-  "name": "@sentinels/pv-gc-journey",
-  "version": "1.0.5",
+  "name": "pv-shared-directives",
+  "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0",
@@ -8,8 +8,7 @@
     "@sentinels/pv-shared-services": "1.0.5-test"
   },
   "dependencies": {
-    "tslib": "^2.3.0",
-    "@sentinels/pv-components-lib": "^1.0.2"
+    "tslib": "^2.3.0"
   },
   "sideEffects": false
 }

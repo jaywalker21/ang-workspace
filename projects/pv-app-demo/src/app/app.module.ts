@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonModule } from 'pv-components-lib/button';
 
-import { JOURNEY_METADATA_SERVICE_TOKEN } from '@sentinels/pv-shared-services';
+import { JOURNEY_METADATA_SERVICE_TOKEN } from '@pv-frontend/pv-shared-services/journey-metadata-service';
 import { JourneyMetaDataServiceImpl } from './pv-journey-metadata-impl.service';
 import { TempComponent } from './temp.component';
 
